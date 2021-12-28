@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>RDEC's First TechFest</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#TechFest" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TechFest</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Events</a>
+        <a href="#" class="w3-bar-item w3-button">Contact Us </a>
+        <a href="#" class="w3-bar-item w3-button">About Us</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#TechFest" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TechFest</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO78OLihkghWK3voJbxi5oCOcsv2fpiH-4BA&usqp=CAU" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Basic Programming</h3>
+      <p><b>Not so confident!Try Basic</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://res-3.cloudinary.com/fieldfisher/image/upload/c_lfill,g_auto/f_auto,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Advanced Programming</h3>
+      <p><b>Test yourself Here!!</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://image.shutterstock.com/image-photo/closeup-on-gamers-hands-keyboard-600w-705666394.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Competion 2</h3>
+      <p><b>Thank you,Online Gaming - A gaming Competition you won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The TechFest Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="TechFest">
+    <h2 class="w3-wide">THE TechFest</h2>
+    <p class="w3-opacity"><i>Who Love Coding</i></p>
+    <p class="w3-justify">Techfest is the annual science and technology festival of RDEC, Ghaziabad, consisting of social initiatives and outreach programs around the year</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Kumar Kaushik</p>
+        <img src="https://scontent.fdel1-5.fna.fbcdn.net/v/t31.18172-8/25299730_10213262907561106_5083381702161509541_o.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=EtJ5iBu8aisAX85fOfv&_nc_ht=scontent.fdel1-5.fna&oh=00_AT98d0jYJqOzRtS6Y0lDRyueVSZv3672Doep83WUHnq7VQ&oe=61EEFC69" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Jaydeep Kumar</p>
+        <img src="https://rdecpwa.firebaseapp.com/images/dept/hodcs.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Mohd. Vakil</p>
+        <img src="https://yt3.ggpht.com/ytc/AKedOLTx0npxk4mXiaKFQSKJWlnHuQbLRLXzgmJsnj7j=s900-c-k-c0x00ffffff-no-rj" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">COMPETITION DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Basic Programming <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">Advanced Programming <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">Online Gaming <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://previews.123rf.com/images/carmenbobo/carmenbobo1509/carmenbobo150900482/45467339-rubber-stamp-with-word-basic-inside-illustration.jpg" alt="Basic Programming" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Basic Programming</b></p>
+            <p class="w3-opacity">To be announced!! Stay Tuned!!</p>
+            <p><!--We'll add details--></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Register</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://image.shutterstock.com/z/stock-vector-grunge-rubber-stamp-with-word-advanced-inside-vector-illustration-144037585.jpg" alt="Advanced Programming" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Advanced Programming</b></p>
+            <p class="w3-opacity">To be announced!! Stay Tuned!!</p>
+            <p><!--We'll add details--></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Register</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="data:image/jpeg;base64,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" alt="Online Gaming" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Online Gaming</b></p>
+            <p class="w3-opacity">To be announced!! Stay Tuned!!</p>
+            <p><!--We'll add details--></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Suggestions?  Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Delhi-Meerut Road, Duhai, Ghaziabad<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0120-2679301<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: info@rdec.in<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="https://icedrive.net/0/54ktkaMTwd" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
