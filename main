@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>RDEC's First Tech-O-tsav</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#Tech-O-tsav" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tech-O-tsav</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMPETITION</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">EVENTS <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">WORKSHOP</a>
+        <a href="#" class="w3-bar-item w3-button">SEMINAR</a>
+        <a href="#" class="w3-bar-item w3-button">MOTIVATION</a>
+      </div>
+    </div>
+    <a href="http://127.0.0.1:5500/login.html" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><button class="button text-align-right">login</button>
+  </div>
+</div>
+</a>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#Tech-O-tsav" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tech-O-tsav</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://scontent.fdel1-5.fna.fbcdn.net/v/t31.18172-8/10333823_771270762904800_966059431256458344_o.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8631f5&_nc_ohc=a9cfdXldBlUAX_7GTzu&_nc_ht=scontent.fdel1-5.fna&oh=00_AT8hfDOstMSvS_x1WVBny18uE7DNuudUk9K5PPqTZAd1hw&oe=61FB7A60" style="width:75%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Basic Programming</h3>
+      <p><b>Not so confident!Try Basic</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://res-3.cloudinary.com/fieldfisher/image/upload/c_lfill,g_auto/f_auto,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05" style="width:50%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Advanced Programming</h3>
+      <p><b>Test yourself Here!!</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://image.shutterstock.com/image-photo/closeup-on-gamers-hands-keyboard-600w-705666394.jpg" style="width:50%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Competion 2</h3>
+      <p><b>Thank you,Online Gaming - A gaming Competition you won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Tech-O-tsav Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Tech-O-tsav">
+    <h2 class="w3-wide">The Tech-O-tsav</h2>
+    <p class="w3-opacity"><i>Who Love Coding</i></p>
+    <p class="w3-justify">Tech-O-tsav is the annual science and technology festival of RDEC, Ghaziabad, consisting of social initiatives and outreach programs around the year. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis doloremque non totam tempora ea, odio quibusdam veritatis nisi modi nulla odit ex nostrum dignissimos deleniti magnam, pariatur tempore eligendi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sapiente magnam tempora eveniet minima ipsum sint non adipisci! Aliquid, nulla voluptates impedit atque minus consectetur rerum quam temporibus ut beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic sint impedit nostrum molestiae cupiditate doloremque voluptate fugiat expedita sit dolores eum necessitatibus, autem iure assumenda dicta praesentium cumque ab.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Kumar Kaushik</p>
+        <img src="https://scontent.fdel1-5.fna.fbcdn.net/v/t31.18172-8/25299730_10213262907561106_5083381702161509541_o.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=EtJ5iBu8aisAX85fOfv&_nc_ht=scontent.fdel1-5.fna&oh=00_AT98d0jYJqOzRtS6Y0lDRyueVSZv3672Doep83WUHnq7VQ&oe=61EEFC69" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Jaydeep Kumar</p>
+        <img src="https://rdecpwa.firebaseapp.com/images/dept/hodcs.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Mohd. Vakil</p>
+        <img src="https://yt3.ggpht.com/ytc/AKedOLTx0npxk4mXiaKFQSKJWlnHuQbLRLXzgmJsnj7j=s900-c-k-c0x00ffffff-no-rj" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Competition Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">COMPETITION DATES</h2>
+      <p class="w3-opacity w3-center"><i>Announcing soon!!!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding"><strong>Basic Programming</strong><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED</span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ullam fugit repudiandae ducimus facilis et dolores numquam doloribus repellendus modi porro illum quod ipsum sapiente, pariatur cumque repellat rerum. Consequatur.</p></li>
+        <li class="w3-padding"><strong>Advanced Programming</strong><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED</span><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ex dignissimos tempora corporis rerum. Consequuntur soluta dignissimos totam minima ad quasi optio quod cumque ut, suscipit esse quis dolor voluptatem.</p></li>
+        <li class="w3-padding"><strong>BGMI</strong><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED</span><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nostrum porro suscipit ducimus provident harum animi neque nihil veniam sint facilis laborum dolore repellat, vero ex voluptatum nobis quia a?</p></li>
+        <li class="w3-padding"><strong>Online Gaming - 2</strong><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED</span><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nostrum porro suscipit ducimus provident harum animi neque nihil veniam sint facilis laborum dolore repellat, vero ex voluptatum nobis quia a?</p></li>
+      </ul>
+
+
+      
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://lh3.googleusercontent.com/pw/AM-JKLWVKB8pUaP7rv6I44iarOYNrFtqdmkmTKrqWScdGPpfqDHt804igmrwhAi5LRwWmLXNR5Spy8NwOUCYF7QzVHqXZI_CqS8MVQ4lfG8xvDeUuWSa33VpDPexOJ8dt9W0JEyzEfOKso264M7JVgMGM0jKKg=s254-no?authuser=0" alt="Basic Programming" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Basic Programming</b></p>
+            <p class="w3-opacity">To be announced!! Stay Tuned!!</p>
+            <p><!--We'll add details--></p>
+            <button class="w3-button w3-black w3-margin-bottom" ><a href="http://127.0.0.1:5500/ref2.html">Register</a></button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://lh3.googleusercontent.com/pw/AM-JKLW9Jm-DQgol9_j5j3PJriD2HL5NcXjgYY_qIBtaxFOYaclgEShuFk8V1wZng4viADn60xQOIejFRB5yHM89PwW5eMn0PL5VcLkhKKa7fFNd8Ty4atcYSHWYPJ1V_Ib88D8plozQdYhchiM1E8Q83IYE3g=s256-no?authuser=0" alt="Advanced Programming" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Advanced Programming</b></p>
+            <p class="w3-opacity">To be announced!! Stay Tuned!!</p>
+            <p><!--We'll add details--></p>
+            <button class="w3-button w3-black w3-margin-bottom" ><a href="http://127.0.0.1:5500/ref2.html">Register</a></button>
+          </div>
+        
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://lh3.googleusercontent.com/pw/AM-JKLUMJNy5OshtyiLlSy3-geTKrVtceNokYxoLHpLYGxzsAnKB8B9AurBpDOtXcah69Fgdfbg-xjgZrVzK0MvjymKkGkhCWH7W39pCtVQem5AsKF3d6xH-1tjlZI4ewfyoqojAPS5eCnCYoOSAlZu8qvwjeA=s256-no?authuser=0" alt="Online Gaming" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Online Gaming</b></p>
+            <p class="w3-opacity">To be announced!! Stay Tuned!!</p>
+            <p><!--We'll add details--></p>
+    <button class="w3-button w3-black w3-margin-bottom" ><a href="http://127.0.0.1:5500/ref2.html">Register</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Suggestions?  Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Delhi-Meerut Road, Duhai, Ghaziabad<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0120-2679301<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: info@rdec.in<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="https://icedrive.net/0/54ktkaMTwd" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"><a href="https://www.facebook.com/RDenggCollege"></a></i>
+  <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
