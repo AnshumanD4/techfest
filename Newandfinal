@@ -1,0 +1,248 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<title>RDEC's First Tech-O-tsav</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/card.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/font.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- <link rel="stylesheet" href="https://parrotsec.org/plugins/particles/particles.css"> -->
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<div id="particles-js">
+</div>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    </div>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="" class="w3-display-topleft">
+      <img src="{% static 'images/logo.jpeg' %}" style="height:47px;width:auto" alt="logo">
+    </a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large">     HOME</a> -->
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small"></a>
+    <a href="#Tech-O-tsav" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tech-O-tsav</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMPETITION</a>
+    <a href="#Contact Us" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
+
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">EVENTS <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">WORKSHOP</a>
+        <a href="#" class="w3-bar-item w3-button">SEMINAR</a>
+        <a href="#" class="w3-bar-item w3-button">MOTIVATION</a>
+      </div>
+    </div>
+    <!-- <a href="http://127.0.0.1:5500/login.html" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><button class="button text-align-right">login</button> -->
+  </div>
+</div>
+</div>
+
+</a>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#Tech-O-tsav" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tech-O-tsav</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Competition</a>
+  <a href="#Contact Us" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+  <a href="#" class="w3-bar-item w3-button" onclick="myFunction()">WORKSHOP</a>
+  <a href="#" class="w3-bar-item w3-button" onclick="myFunction()">SEMINAR</a>
+  <a href="#" class="w3-bar-item w3-button" onclick="myFunction()">MOTIVATION</a>
+</div>
+{% include "home/messages.html" %}
+<!-- Page content -->
+<div class="w3-content" style="max-width:4000px;margin-top:30px">
+  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+    <img src="{% static 'images/best.jpg' %}" alt="boy" class="w3-image" width="1198px" height="600px">
+  </header>
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="{% static 'images/slideshow_advance.jpeg' %}" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Advance Programming With DS</h3>
+      <p><b>You Need guts to be Here!!</b></p>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="{% static 'images/BGMI.jpg' %}" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Online Gaming</h3>
+      <p><b>A gaming Competition you won't forget.Test yourself Here!!</b></p>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="{% static 'images/slideshow_3.jpeg' %}" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Basic Coding with C</h3>
+      <p><b>Awwwwwwwwwww!!</b></p>
+    </div>
+  </div>
+
+  <!-- The Tech-O-tsav Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Tech-O-tsav">
+    <h2 class="w3-wide">The Tech-O-tsav</h2>
+    <p class="w3-opacity"><i>Who Love Coding</i></p>
+    <p class="w3-justify">Tech-O-tsav is the annual science and technology festival of RDEC, Ghaziabad, consisting of social initiatives and outreach programs around the year. We have multiple options where you can participate with many prizes to win. As we are organazing tech fest where you can choose between the programming and gaming or you can participate in both as we call them pro in both coding and in gaming.
+    Unlock your potential. Extend your horizons Register today!! </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Sanjeev Sharma</p>
+        <img src="{% static 'images/logo.jpeg' %}" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Professor Mohd. Vakil</p>
+        <img src="https://yt3.ggpht.com/ytc/AKedOLTx0npxk4mXiaKFQSKJWlnHuQbLRLXzgmJsnj7j=s900-c-k-c0x00ffffff-no-rj" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Dr. Jaideep Kumar</p>
+        <img src="https://rdecpwa.firebaseapp.com/images/dept/hodcs.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+<!-- Team Section -->
+<div class="w3-black" id="tour">
+<div class="w3-container" style="padding:128px 16px" id="team">
+    <h3 class="w3-center">COMPETITION DATES</h3>
+    <p class="w3-center w3-large">Announcing soon!!!</p>
+    <div class="w3-row-padding w3-padding-32" style="margin-top:64px">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <!-- <div class="w3-card"> -->
+          <img src="{% static 'images/Basic 2.jpg' %}" alt="John" style="width:100%">
+          <div class="w3-container w3-white">                       <h3>Basic Programming</h3>
+            <!-- <p class="w3-opacity">CEO & Founder</p> -->
+            <p>Basic Programming is for the begineers. Here you can test your basic skill and you'll win something. Isn't great!!</p>
+            <button class="w3-button w3-black w3-margin-bottom" ><a href="{% url 'registerbasic' %}">Register</a><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED:{{bcount}}</span></button>
+          </div>
+        <!-- </div> -->
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <!-- <div class="w3-card"> -->
+          <img src="{% static 'images/advance 2.jpg' %}" alt="Jane" style="width:100%">
+          <div class="w3-container w3-white">
+               <h3>Advanced Programming</h3>
+            <!-- <p class="w3-opacity">Art Director</p> -->
+            <p>Real Skill are tested here with concept of DSA. Things get intense here!! little tough to crack but more in prize
+            </p>
+            <button class="w3-button w3-black w3-margin-bottom" ><a href="{% url 'registeradvance' %}">Register</a><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED:{{acount}}</span></button>
+
+          </div>
+        <!-- </div> -->
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <!-- <div class="w3-card"> -->
+          <img src="{% static 'images/bgmi 2.jpg' %}" alt="Project" style="width:100%">
+          <div class="w3-container w3-white">            <h3>Online Gaming</h3>
+            <!-- <p class="w3-opacity">Web Designer</p> -->
+            <p>Even if you are NOOB in programming. Doesn't mean you are mean in Online gaming. Winners Register here!!</p>
+            <button class="w3-button w3-black w3-margin-bottom" ><a href="{% url 'registergaming' %}">Register</a><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED:{{gcount}}</span></button>
+          </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <!-- <div class="w3-card"> -->          <img src="{% static 'images/project.jpeg' %}" alt="Project" style="width:100%">
+          <div class="w3-container w3-white">
+        <h3>Project</h3>
+            <!-- <p class="w3-opacity">Project</p> -->
+            <p>Real sweat Real skills.. Thing get heated here!! You will get time to prepare and present project. Some intance action.</p>
+            <button class="w3-button w3-black w3-margin-bottom" ><a href="{% url 'registerproject' %}">Register</a><span class="w3-tag w3-red w3-margin-left">TOTAL REGISTERED:{{pcount}}</span></button>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <!-- The Contact Us Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="Contact Us">
+    <h2 class="w3-wide w3-center">Contact Us</h2>
+    <p class="w3-opacity w3-center"><i>Suggestions?  Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Delhi-Meerut Road, Duhai, Ghaziabad<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0120-2679301<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: info@rdec.in<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="{% static 'images/flag.jpg' %}" width="100%">
+<!-- ADD IMAGE AT THE VERY BOTTOM ON ABOVE -->
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p>Made With Love!!</p>
+  <!-- <i class="fa fa-facebook-official w3-hover-opacity"><a href="https://www.facebook.com/RDenggCollege"></a></i> -->
+
+</footer>
+</body>
+<script>
+setTimeout(function(){
+    if ($('msg').length > 0) {
+      $('#msg').remove();
+    }
+  },5)
+
+// Automatic Slideshow - change image every 10 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<!-- <script src="https://parrotsec.org/plugins/particles/particles.min.js"></script> -->
+
+</body>
+</html>
