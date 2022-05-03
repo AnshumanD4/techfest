@@ -26,17 +26,17 @@ body {font-family: "Lato", sans-serif}
     <div class="w3-display-topleft w3-padding-large w3-xlarge">
     </div>
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="" class="w3-display-topleft">
+    <!-- <a href="" class="w3-display-topleft">
       <img src="{% static 'images/logo.jpeg' %}" style="height:47px;width:auto" alt="logo">
-    </a>
+    </a> -->
     <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large">     HOME</a> -->
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small"></a>
-    <a href="#Tech-O-tsav" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tech-O-tsav</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMPETITION</a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small"></a> -->
+    <a href="#Tech-O-tsav" class="w3-bar-item w3-button w3-padding-large w3-hide-small">𝐓𝐞𝐜𝐡-𝐎-𝐭𝐬𝐚𝐯</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Competition</a>
     <a href="#Contact Us" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
 
     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">EVENTS <i class="fa fa-caret-down"></i></button>
+      <button class="w3-padding-large w3-button" title="More">Events <i class="fa fa-caret-down"></i></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#" class="w3-bar-item w3-button">WORKSHOP</a>
         <a href="#" class="w3-bar-item w3-button">SEMINAR</a>
@@ -92,12 +92,12 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Tech-O-tsav">
     <h2 class="w3-wide">The Tech-O-tsav</h2>
     <p class="w3-opacity"><i>Who Love Coding</i></p>
-    <p class="w3-justify">Tech-O-tsav is the annual science and technology festival of RDEC, Ghaziabad, consisting of social initiatives and outreach programs around the year. We have multiple options where you can participate with many prizes to win. As we are organazing tech fest where you can choose between the programming and gaming or you can participate in both as we call them pro in both coding and in gaming.
+    <p class="w3-justify">Tech-O-tsav is the science and technology festival of RDEC, Ghaziabad, consisting of social initiatives and outreach programs. We have multiple options where you can participate with many prizes to win. As we are organazing tech fest where you can choose between the programming and gaming or you can participate in both as we call them pro in both coding and in gaming.
     Unlock your potential. Extend your horizons Register today!! </p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
         <p>Sanjeev Sharma</p>
-        <img src="{% static 'images/logo.jpeg' %}" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <img src="https://scontent.fagr1-3.fna.fbcdn.net/v/t1.6435-9/157813780_4151133594919371_810095291320860909_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=V0vMPauAjrEAX_2j1TC&_nc_ht=scontent.fagr1-3.fna&oh=00_AT_j4-o9iRKjU_rEnXmBT7Ulz9R2ELO3yZTVPwK098ecLw&oe=62975C24" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
         <p>Professor Mohd. Vakil</p>
